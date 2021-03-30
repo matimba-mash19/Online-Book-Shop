@@ -1,4 +1,4 @@
-package com.matimba.book.shop.assessment.controller;
+package com.matimba.book.shop.assessment.service;
 
 import com.matimba.book.shop.assessment.entity.Customer;
 

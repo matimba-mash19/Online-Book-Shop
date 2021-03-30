@@ -1,4 +1,4 @@
-package com.matimba.book.shop.assessment.controller;
+package com.matimba.book.shop.assessment.service;
 
 
 import com.matimba.book.shop.assessment.entity.Customer;
@@ -12,7 +12,7 @@ import java.util.List;
 public class BookOrderService implements IOrderService
 {
   @Autowired
-  CustomerRepository customerRepository;
+  private CustomerRepository customerRepository;
 
   @Override
   public void processCustomersOrder(Customer customer)

@@ -1,7 +1,7 @@
 package com.matimba.book.shop.assessment.controller;
 
 import com.matimba.book.shop.assessment.entity.Customer;
-import com.matimba.book.shop.assessment.entity.Orders;
+import com.matimba.book.shop.assessment.service.BookOrderService;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.skyscreamer.jsonassert.JSONAssert;
@@ -14,7 +14,6 @@ import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import java.time.LocalDate;
-import java.util.Arrays;
 import java.util.HashSet;
 
 public class BookOrderControllerTest
