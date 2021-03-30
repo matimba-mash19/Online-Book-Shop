@@ -22,11 +22,6 @@ public class BookOrderController
   @Autowired
   BookOrderService bookOrderService;
 
-  @PostMapping("/loadBooks")
-  public void saveBook(@RequestBody Book book){
-    bookOrderService.saveBook(book);
-  }
-
   @PostMapping("/placeOrders")
   public void placeCustomersOrder(@RequestBody Customer customer)
   {
